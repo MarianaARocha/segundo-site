@@ -1,0 +1,200 @@
+body{
+    overflow-x: hidden;
+}
+.pai  .facial{
+    position: relative;
+    color: rgb(167, 167, 167);
+    margin-top: 90px;
+    text-align: center;
+    background-color: black;
+    margin-left:20%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+    font-size: 25px;
+    border-radius: 20px ;
+    padding-top: 10px;
+}
+
+hr{
+    position: relative;
+    color: rgb(167, 167, 167);
+    margin-top: -15px;
+    margin-left: 38%;
+}
+
+
+.pai main .rosto{
+    position: inherit;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.pai main .rosto ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pai main .rosto ul li{
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+    margin: 20px;
+    list-style: none;
+    font-size: 20px;
+    width: 210px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(167, 167, 167);
+
+}
+
+.conteiner-imagem{
+    
+    margin-top: 300px;
+}
+.conteiner-imagem img{
+    border-radius: 20px;
+    position: relative;
+    
+   
+}
+
+#voltar, #avançar{
+    margin-top: 300px;
+}
+
+.pai main .corporal{
+    position: relative;
+    color: rgb(167, 167, 167);
+    margin-top: 300px;
+    text-align: center;
+    background-color: black;
+    margin-left:20%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+    font-size: 25px;
+    border-radius: 20px ;
+    padding-top: 10px;
+}
+
+
+.pai main .corpo{
+    position: inherit;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.pai main .corpo ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pai main .corpo ul li{
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+    margin: 20px;
+    list-style: none;
+    font-size: 20px;
+    width: 210px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(167, 167, 167);
+
+}
+
+
+.pai main .corpo .conteinerr-imagem{
+    text-align: center;
+    margin-top: 300px;
+}
+.pai main .corpo .conteinerr-imagem img{
+    border-radius: 20px;
+    position: relative;
+    
+   
+}
+
+
+
+
+
+.pai .avalia{
+    margin-top: 350px;
+
+}
+
+.pai .avalia hr{
+	position:relative;
+	left:-28%;
+	top: 40px;
+	
+	
+}
+
+
+
+@media(max-width:922px){
+
+ 
+
+    .rosto .conteiner-imagem .slider img{
+        width: 250px;
+
+    }
+
+    .rosto .slider{
+       
+        width: 90%;
+    }
+    
+    .pai main .corporal{
+        font-size: 20px;
+    }
+    .pai  .facial{
+       
+        margin-top: 0px;
+       
+        font-size: 20px;
+        
+    }
+    .pai main .rosto ul li{font-size: 15px;width:180px;}
+    .img{
+        margin-top: -150px;
+    }
+    .pai main .corpo .conteinerr-imagem img{
+        width: 230px;
+        
+       
+    }
+
+    .pai main .corpo .conteinerr-imagem .sliderr img{
+        width: 250px;
+
+    }
+
+    .pai main .corpo .sliderr{
+       
+        width: 90%;
+    }
+    
+   
+}
+
+
+@media (prefers-color-scheme: dark) {
+    #voltarr{
+        
+        background-color: white;
+     }
+     #avançarr{
+        
+        background-color: white;
+     }
+    *{
+        list-style-type: none;
+    }
+    
+}
